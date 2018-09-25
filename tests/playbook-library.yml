@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  tasks:
+    - name: test module inclusion
+      action: dummy
+      register: dummy_output
+    - name: display dummy output
+      debug:
+        var: dummy_output

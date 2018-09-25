@@ -1,0 +1,4 @@
+---
+# tasks file for ansible-role-art-tester
+- debug:
+    msg: "Task from ansible-role-art-tester. Answer: {{ answer }}"

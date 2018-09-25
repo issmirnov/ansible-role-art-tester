@@ -1,0 +1,8 @@
+# OS
+._*
+
+# vim
+*.swp
+
+# ansible
+*.retry
