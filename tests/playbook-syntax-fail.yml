@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  pre_tasks:
+    - name: "break syntax for tests"
+  roles:
+    - ansible-role-art-tester

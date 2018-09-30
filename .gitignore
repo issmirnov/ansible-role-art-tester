@@ -6,3 +6,6 @@
 
 # ansible
 *.retry
+
+# ansible-role-tester
+report.yml

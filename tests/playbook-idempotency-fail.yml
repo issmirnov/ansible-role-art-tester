@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  pre_tasks:
+    - debug:
+        msg: "break idempotency for test"
+      changed_when: true
+  roles:
+    - ansible-role-art-tester
